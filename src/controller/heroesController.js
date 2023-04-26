@@ -1,5 +1,7 @@
 import Hero from '../models/Hero.js'
 
+/*Este arquivo que controla as requisições do model Hero*/
+
 class HeroController {
   //Método para LER/LISTAR toda a lista do db
   static listarHeroes = async (_req, res) => {

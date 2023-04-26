@@ -1,5 +1,7 @@
 import Rival from '../models/Rival.js'
 
+/*Este arquivo que controla as requisições do model Rival*/
+
 class RivalController {
   //Método para LER/LISTAR toda a lista do db
   static listarRivais = async (_req, res) => {
